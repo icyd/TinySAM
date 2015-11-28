@@ -25,10 +25,10 @@ The microcontroller implement for this board is the [Atmel's ARM Cortex-M0+ SAM 
 ### Power supply
 
 The device could be powered using two different supplies: through **USB cable**
-directly, of with an external supply if **6.5v MAX** connected to the **VIN pin**.
+directly, of with an external supply of **6.5v MAX** connected to the **VIN pin**.
 The device will select between USB and external supply, with preference for the
-last one. Also *when a host USB cable is connected, and external supply is
-required* to supply both the 'TinySAM' and the USB device.
+last one. Also *when a host USB cable is connected an external supply is
+required* to power both 'TinySAM' and guest device.
 
 
 
