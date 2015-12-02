@@ -4,7 +4,7 @@ This development board, is designed to be breadboard-pin compatible taking into
 consideration size, easiness of production (using 2-sided pcb), and price.
 The microcontroller implement for this board is the [Atmel's ARM Cortex-M0+ SAM D21](http://www.atmel.com/products/microcontrollers/arm/sam-d.aspx?tab=documents).
 
-![Image of TinySAM](https://raw.githubusercontent.com/icyd/TinySAM/master/hardware/Picture1.png)
+![Image of TinySAM](https://www.dropbox.com/s/947s597djahdxtc/Picture1.png?dl=0)
 
 
 ### Features:
