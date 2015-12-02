@@ -4,7 +4,7 @@ This development board, is designed to be breadboard-pin compatible taking into
 consideration size, easiness of production (using 2-sided pcb), and price.
 The microcontroller implement for this board is the [Atmel's ARM Cortex-M0+ SAM D21](http://www.atmel.com/products/microcontrollers/arm/sam-d.aspx?tab=documents).
 
-![Image of TinySAM](https://www.dropbox.com/s/947s597djahdxtc/Picture1.png?dl=0)
+![Image of TinySAM](https://cloud.githubusercontent.com/assets/7422757/11535293/6f83e062-98e5-11e5-95b7-38daea065f03.png)
 
 
 ### Features:
@@ -12,6 +12,8 @@ The microcontroller implement for this board is the [Atmel's ARM Cortex-M0+ SAM 
   * 2 16-pins header connectors with 100 mils pitch, with connection to all the
   available pins of the microcontroller, VIN and GND; compatible with the pin
   layout of breadboards.
+  * All through-holes for headers have the connection to traces in the right
+  layer, in case of hole plating is not possible.
   * 32.786 Khz crystal for Real-time applications.
   * Cortex debug header (SWD).
   * ESD and VBUS protection.
