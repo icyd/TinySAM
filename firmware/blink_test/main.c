@@ -17,8 +17,10 @@ int main(void)
 
 	while (1)
 	{
-		REG_PORT_OUTTGL0 = LED0;
-		Delay(500);
+		REG_PORT_OUTSET0 = LED0;
+		Delay(800);
+		REG_PORT_OUTCLR0 = LED0;
+		Delay(100);
 	}
 }
 

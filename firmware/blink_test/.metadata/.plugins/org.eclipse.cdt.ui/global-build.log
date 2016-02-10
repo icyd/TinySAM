@@ -1,0 +1,31 @@
+22:44:53 **** Incremental Build of configuration Debug for project SAMD21 blink ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -D__SAMD21G18A__ -I/usr/arm/CMSIS/Include -I/usr/arm/Atmel/samd21a/include -std=gnu11 -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: SAMD21 blink.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -Xlinker --gc-sections -Wl,-Map,"SAMD21 blink.map" -o "SAMD21 blink.elf"  ./main.o   
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+./main.o: In function `main':
+/home/beto/workspace/arm_blink/Debug/../main.c:17: undefined reference to `SystemInit'
+makefile:41: recipe for target 'SAMD21 blink.elf' failed
+/home/beto/workspace/arm_blink/Debug/../main.c:28: undefined reference to `SystemCoreClock'
+collect2: error: ld returned 1 exit status
+make: *** [SAMD21 blink.elf] Error 1
+22:47:26 **** Incremental Build of configuration Debug for project SAMD21 blink ****
+make all 
+Building target: SAMD21 blink.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -Xlinker --gc-sections -Wl,-Map,"SAMD21 blink.map" -o "SAMD21 blink.elf"  ./main.o   
+/usr/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+./main.o: In function `main':
+/home/beto/workspace/arm_blink/Debug/../main.c:17: undefined reference to `SystemInit'
+/home/beto/workspace/arm_blink/Debug/../main.c:28: undefined reference to `SystemCoreClock'
+collect2: error: ld returned 1 exit status
+make: *** [SAMD21 blink.elf] Error 1
+makefile:41: recipe for target 'SAMD21 blink.elf' failed

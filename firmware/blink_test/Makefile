@@ -17,7 +17,7 @@ OUTPUT_FOLDER=build
 OUTPUT_FILE=blink_test
 
 INCLUDE_PATHS=-I/usr/arm/Atmel/samd21a/include/ -I/usr/arm/CMSIS/Include/
-CFLAGS=-x c -mthumb -mcpu=Cortex-M0plus -D__SAMD21G18A__ -O1 -ffunction-sections -Wall -c -std=gnu99
+CFLAGS=-x c -mthumb -mcpu=Cortex-M0plus -D__SAMD21G18A__ -O0 -ggdb -ffunction-sections -Wall -c -std=gnu99
 LDFLAGS=-Wl,--start-group -lm  -Wl,--end-group -Wl,--gc-sections -mthumb -mcpu=Cortex-M0plus -Tsamd21g18a_flash.ld -L /usr/arm/CMSIS/Lib/GCC
 
 SRCS=main.c system_samd21.c startup_samd21.c

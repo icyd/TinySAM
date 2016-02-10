@@ -1,0 +1,22 @@
+!SESSION 2016-01-15 22:23:02.923 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-15 22:25:59.560
+!MESSAGE Indexed 'SAMD21 blink' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-15 22:27:35.719
+!MESSAGE Indexed 'aaaaaaaaaaaaaa' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY ilg.gnuarmeclipse.packs.data 4 1 2016-01-15 22:32:10.799
+!MESSAGE File .repos.xml does not exist, using defaults.
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-15 22:39:04.102
+!MESSAGE Indexed 'SAMD21 blink' (1 sources, 1 headers) in 0.019 sec: 12 declarations; 46 references; 0 unresolved inclusions; 1 syntax errors; 9 unresolved names (13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-15 22:44:47.051
+!MESSAGE Indexed 'SAMD21 blink' (1 sources, 70 headers) in 2.4 sec: 5,417 declarations; 5,693 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
